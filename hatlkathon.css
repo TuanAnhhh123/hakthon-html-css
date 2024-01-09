@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #041d34;
+}
+.all{
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+
+    
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    gap:2px;
+    font-size: 60px;
+    
+}
+.right{
+    position: relative;
+    margin-left: 330px;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #0588ff;
+    border: none;
+    border-radius: 32px;
+    margin-right: 40px;
+    
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: #dbe0e4;
+
+}
+.X{
+    width: 130px;
+    height: 50px;
+    border: 90px;
+    background-color: #063661;
+    color: #dbe0e4;
+    margin-left: 400px;
+    margin-top: 400px;
+
+
+
+}
+
+.Y{
+    width: 120px;
+    height: 20px;
+    background-color: #0588ff;
+    font-weight: 200;
+    margin-left: 200px;
+    position: absolute;
+    bottom: 520px;
+    color: #dbe0e4;
+}
+.Z{
+    margin-left:200px ;
+    position: absolute;
+    bottom: 482px;
+    color: #dbe0e4;
+}
+.C{
+    margin-left:200px ;
+    position: absolute;
+    bottom: 455px;
+    color: #0588ff;
+}
+.V{
+    margin-left:200px ;
+    position: absolute;
+    bottom: 423px;
+    color: #dbe0e4;
+    height: 40px;
+    width: 370px;
+}
+.B{
+    position: absolute;
+    margin-left: 200px;
+    bottom: 336px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.G{
+    position: absolute;
+    margin-left: 437px;
+    bottom: 326px;
+
+}
+.J{
+    border-radius: 50%;
+}
+.F{
+    position: absolute;
+    margin-left: 800px;
+   
+}
+.K{
+    width: 400px;
+    height: 561px;
+}
