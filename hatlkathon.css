@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #041d34;
+    background-image: linear-gradient(-90deg,#050c17, #08233b);
 }
 .all{
     font-family: 'Bree Serif', serif;
@@ -14,8 +14,6 @@ body{
     color: white;
     align-items: center;
 
-    
-    
 }
 img{
     width: 50px;
@@ -49,9 +47,14 @@ button{
 }
 a{
     text-decoration: none;
+    box-shadow: rgb(243,64,64)
     display: flex;
     color: #dbe0e4;
-
+    transition: box-shadow .4s,color .3s;
+}
+a:hover{
+    color: rgb(243, 64, 64);
+    box-shadow: 0 3px rgb(228, 218, 218)
 }
 .X{
     width: 130px;
@@ -61,8 +64,6 @@ a{
     color: #dbe0e4;
     margin-left: 400px;
     margin-top: 400px;
-
-
 
 }
 
@@ -79,19 +80,19 @@ a{
 .Z{
     margin-left:200px ;
     position: absolute;
-    bottom: 482px;
+    bottom: 475px;
     color: #dbe0e4;
 }
 .C{
     margin-left:200px ;
     position: absolute;
-    bottom: 455px;
+    bottom: 446px;
     color: #0588ff;
 }
 .V{
     margin-left:200px ;
     position: absolute;
-    bottom: 423px;
+    bottom: 408px;
     color: #dbe0e4;
     height: 40px;
     width: 370px;
@@ -99,7 +100,7 @@ a{
 .B{
     position: absolute;
     margin-left: 200px;
-    bottom: 336px;
+    bottom: 320px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -108,7 +109,7 @@ a{
 .G{
     position: absolute;
     margin-left: 437px;
-    bottom: 326px;
+    bottom: 310px;
 
 }
 .J{
@@ -122,4 +123,70 @@ a{
 .K{
     width: 400px;
     height: 561px;
+}
+
+
+.alll{
+    position: absolute;
+    bottom: -1000px;
+}
+
+.picture1{
+    display: flex;
+    margin-left: 100px;
+    width: 400px;
+    height:500px;
+    margin-top: -300px;
+    margin-bottom: 100px;
+}
+.about-us{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    background-color:rgb(43, 43, 95);
+    align-items: center;
+    justify-content: center; 
+    width: 140px;
+    height: 30px;
+    margin-left: 800px; 
+    margin-top: 150px;   
+}
+.UIX{
+    display: flex;
+    margin-left: 800px;
+    font-size: 45px;
+    color: aliceblue;
+}
+.uiux{
+    display: flex;
+    margin-left: 800px;
+    font-size: 45px;
+    color: rgb(51, 142, 217);
+}
+.H{
+    display: flex;
+    margin-left: 800px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.button{
+    display: flex;
+    margin-left: 480px;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.button2{
+    display: flex;
+    color:aliceblue;
+    background-color: rgb(51, 147, 226);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    border-radius: 45px;
+    width: 140px;
+    height: 30px;
 }
